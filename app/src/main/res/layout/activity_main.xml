@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/selectCategoryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Select Category:"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <Spinner
+                android:id="@+id/selectCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:background="@drawable/backwithborder"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/selectDifficultyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Select Difficulty:"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <Spinner
+                android:id="@+id/selectDifficulty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backwithborder"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/selectTypeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Select Type:"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <Spinner
+                android:id="@+id/selectType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backwithborder"
+                android:layout_marginTop="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:inputType="textPersonName"
+                android:textSize="16sp" />
+            <Button
+                android:layout_marginTop="40dp"
+                android:id="@+id/apply"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:background="@drawable/backwithborder"
+                android:shadowColor="@color/black"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="A P P L Y" />
+        </LinearLayout>
+</LinearLayout>
